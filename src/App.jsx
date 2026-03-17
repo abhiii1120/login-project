@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 px-4 py-12 sm:px-6 lg:px-8">
-      {signupToggle ? <Login toggle={setSignupToggle} /> : <Signup toggle={setSignupToggle}/>}
+      {signupToggle ? <Signup toggle={setSignupToggle} /> : <Login toggle={setSignupToggle}/>}
       
     </div>
   );
